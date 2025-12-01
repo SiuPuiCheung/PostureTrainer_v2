@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebooks/image/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and environment
+.env
+.env.*
+*.secret*
+
+# Confidential business analysis docs
+bmad_docs/
+
+# Logs
+*.log
+
+# Test output
+htmlcov/
+coverage.xml
+*.cover
+
+# Others
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.parquet
+*.feather
+*.json
+*.yaml
+*.yml
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+
+# Ignore model files
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+
+# Ignore output folders
+output/
+results/
